@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comic Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Comic Generator</h1>
+        <div id="comicDisplay" class="hidden"></div>
+        <form id="comicForm">
+            <label for="panel">Panel 1:</label>
+            <textarea id="panel" name="panel" rows="4" required></textarea>
+            <button type="button" onclick="generateNextPanel()">Generate Next Panel</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
